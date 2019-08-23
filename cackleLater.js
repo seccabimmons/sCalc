@@ -5,7 +5,7 @@ var z;
 function add(x, y) {
     var x = document.getElementById("num1").value;
     var y = document.getElementById("num2").value;
-    var z = x + y;
+    var z = Number(x) + Number(y);
     document.getElementById("result").innerHTML = z;
 }
 
